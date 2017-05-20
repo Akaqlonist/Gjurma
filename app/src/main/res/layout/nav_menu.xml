@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:paddingTop="40dp"
+    android:paddingLeft="@dimen/_10sdp"
+    android:background="@color/yellow"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_150sdp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:src="@drawable/yourlogohere"
+            android:id="@+id/iv_logo"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="info@Gjurma.Com"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/_13sdp"
+            android:textStyle="bold"
+            android:layout_below="@+id/iv_logo"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menuHome"
+            android:title="Ballina"
+            android:icon="@drawable/ic_home"/>
+        <item
+            android:id="@+id/menuFavourite"
+            android:title="Të Preferuara"
+            android:icon="@drawable/ic_favourite"/>
+        <item
+            android:id="@+id/menuRate"
+            android:title="RAPORTO"
+            android:icon="@drawable/ic_rate_us"/>
+        <item
+            android:id="@+id/menuAbout"
+            android:title="Web"
+            android:icon="@drawable/ic_about_us"/>
+
+        <item
+            android:id="@+id/menuExit"
+            android:title="Mbylle App"
+            android:icon="@drawable/ic_exit"/>
+
+    </group>
+</menu>

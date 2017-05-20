@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Gjurma.Com</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <!-- AdMob ad unit IDs -->
+    <string name="banner_home_footer">ca-app-pub-7968543012907582/8041863954</string>
+    <string name="interstitial_full_screen">ca-app-pub-7968543012907582/9518597152</string>
+</resources>

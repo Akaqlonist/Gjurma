@@ -1,0 +1,64 @@
+<android.support.v7.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardPreventCornerOverlap="false"
+    app:cardUseCompatPadding="true"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    card_view:cardCornerRadius="5dp">
+
+    <LinearLayout
+        android:padding="@dimen/_10sdp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/iv_image"
+            android:src="@drawable/yourlogohere"
+            android:layout_marginRight="10dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:civ_border_width="2dp"
+            app:civ_border_color="@color/colorPrimary1"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:singleLine="true"
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Title"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:textSize="@dimen/_14sdp"/>
+
+            <TextView
+                android:id="@+id/tv_author"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gjurma.Com"
+                android:textSize="@dimen/_10sdp"
+                android:textColor="@color/datecolor"/>
+            <TextView
+                android:id="@+id/tv_date"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date"
+                android:textSize="@dimen/_9sdp"
+                android:textColor="@color/datecolor"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

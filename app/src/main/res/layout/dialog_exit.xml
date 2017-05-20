@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/white_border"
+    android:padding="@dimen/_20sdp">
+
+    <TextView
+        android:id="@+id/tv_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dëshironi ta mbyllni aplikacionin?"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="@dimen/_14sdp"/>
+
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_no"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:text="jo"
+            android:theme="@style/MyButton"/>
+        <Button
+            android:id="@+id/btn_yes"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:theme="@style/MyButton"
+            android:text="PO"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

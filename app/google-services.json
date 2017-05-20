@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "300149407744",
+    "firebase_url": "https://gjurma-7ba58.firebaseio.com",
+    "project_id": "gjurma-7ba58",
+    "storage_bucket": "gjurma-7ba58.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300149407744:android:168781d242bd5951",
+        "android_client_info": {
+          "package_name": "arl.gjurma.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300149407744-g9p1ck7bti9u0jlkofc3er9bbiitkscb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDfswrWaQhgKCmUxfgbrz7sqKo7nGyNGU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
